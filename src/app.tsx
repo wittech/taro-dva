@@ -14,7 +14,7 @@ import models from './models'
 
 import './app.less'
 
-require('core-js/modules/es.promise.finally')
+require('promise-prototype-finally')
 
 const dvaApp = dva.createApp({
   initialState: {},
